@@ -179,13 +179,14 @@ html {
 
     .card {
         width: 350px !important;
-        height: 350px !important;
+        height: 500px !important;
         border-radius: 30px;
     }
     
     .message {
         padding: 15px;
         font-size: 20px;
+        line-height: 40px;
     }
     
     .thank-you{
