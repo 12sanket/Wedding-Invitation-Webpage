@@ -4,16 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/styles/style.css" type="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
     <title>Our Wedding</title>
 </head>
 
 <body>
 
-    <div id="particles-js"></div>
+    <div id="particles-js">
+        <div class="wrapper">
 
-    <script src="particles.js"></script>
+            <header>
+                <div class="title">
+                    <h1 class="name">Abhijeet</h1>
+                    <h1 class="and">&</h1>
+                    <h1 class="name">Dhanashree</h1>
+                </div>
+
+                <p class="header-info">Geeting married on</p>
+                <p class="date-info">2nd July 2020</p>
+        </div>
+        </header>
+
+    </div>
+
+    <script src="/scripts/particles.min.js"></script>
     <script src="/scripts/app.js"></script>
+    <script>
+        particlesJS.load('particles-js', '/assets/particlesconfig.json', function () {
+            console.log('callback - particles.js config loaded');
+        });
+    </script>
 </body>
 
 </html>

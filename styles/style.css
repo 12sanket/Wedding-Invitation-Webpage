@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0;
+    background-size: 100% 100%;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: flex;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-family: 'Dancing Script', cursive;
+    padding: 10px;
+    font-size: 8vw;
+    color: #F44336;
+}
+
+.and {
+    font-family: 'Dancing Script', cursive;
+    font-size: 12vw;
+    margin: -20px;
+    color: #FFEE58;
+    z-index: -1;
+}
+
+.header-info {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3vw;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.date-info {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3vw;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #FFEE58;     
+    padding: 10px;
+}
+
+@media (max-width: 720px) {
+    .title {
+       flex-direction: column;
+    }
+
+    .name {
+        font-family: 'Dancing Script', cursive;
+        font-size: 14vw;
+    }
+    
+    .and {
+        font-family: 'Dancing Script', cursive;
+        font-size: 12vw;
+        color: #FFEE58;
+        margin-bottom: -60px;
+        padding: 5px;
+    }
+    
+    .header-info {
+        font-family: 'Dancing Script', cursive;
+        font-size: 6vw;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+}
