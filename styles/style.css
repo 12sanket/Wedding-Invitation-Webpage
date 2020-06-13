@@ -8,7 +8,7 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 #particles-js {
     width: 100%;
@@ -41,7 +41,15 @@ html {
     padding: 50px 0px 50px 0px;
 }
 
-.count-page{
+.message-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 50px 0px 50px 0px;
+}
+
+.count-page {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -53,6 +61,7 @@ html {
     width: 200px;
     height: 200px;
 }
+
 .title {
     display: flex;
     height: 100%;
@@ -79,7 +88,7 @@ html {
 
 .header-info {
     font-family: 'Dancing Script', cursive;
-    font-size: 5vw;
+    font-size: 6vw;
     justify-content: center;
     align-items: center;
     padding: 10px;
@@ -91,11 +100,42 @@ html {
     justify-content: center;
     align-items: center;
     font-weight: 700;
-    color: #F44336;     
+    color: #F44336;
     padding: 10px;
 }
 
-.counter-title{
+.card {
+    width: 400px !important;
+    height: 400px !important;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.message {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+}
+
+.thank-you{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.counter-title {
     font-family: 'Dancing Script', cursive;
     font-size: 6vw;
     padding: 20px;
@@ -107,16 +147,20 @@ html {
     padding: 20px;
 }
 
+
+
+
+
 @media (max-width: 720px) {
     .title {
-       flex-direction: column;
+        flex-direction: column;
     }
 
     .name {
         font-family: 'Dancing Script', cursive;
         font-size: 18vw;
     }
-    
+
     .and {
         font-family: 'Dancing Script', cursive;
         font-size: 12vw;
@@ -124,12 +168,30 @@ html {
         margin-bottom: -60px;
         padding: 5px;
     }
-    
+
     .header-info {
         font-size: 8vw;
     }
 
-    .date-info {    
+    .date-info {
         font-size: 6vw;
     }
+
+    .card {
+        width: 350px !important;
+        height: 350px !important;
+        border-radius: 30px;
+    }
+    
+    .message {
+        padding: 15px;
+        font-size: 20px;
+    }
+    
+    .thank-you{
+        font-size: 18px;
+        padding: 10px;
+    }
+    
+
 }
