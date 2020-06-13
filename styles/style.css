@@ -41,6 +41,14 @@ html {
     padding-top: 100px;
 }
 
+.count-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
 .flowers {
     width: 200px;
     height: 200px;
@@ -85,6 +93,18 @@ html {
     font-weight: 700;
     color: #F44336;     
     padding: 10px;
+}
+
+.counter-title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 6vw;
+    padding: 20px;
+}
+
+#clock {
+    font-family: 'Dancing Script', cursive;
+    font-size: 6vw;
+    padding: 20px;
 }
 
 @media (max-width: 720px) {
