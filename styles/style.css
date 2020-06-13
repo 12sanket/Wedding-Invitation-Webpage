@@ -38,7 +38,7 @@ html {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    padding-top: 100px;
+    padding: 50px 0px 50px 0px;
 }
 
 .count-page{
@@ -46,7 +46,7 @@ html {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    padding-top: 100px;
+    padding: 50px 0px 50px 0px;
 }
 
 .flowers {
@@ -79,7 +79,7 @@ html {
 
 .header-info {
     font-family: 'Dancing Script', cursive;
-    font-size: 3vw;
+    font-size: 5vw;
     justify-content: center;
     align-items: center;
     padding: 10px;
@@ -114,7 +114,7 @@ html {
 
     .name {
         font-family: 'Dancing Script', cursive;
-        font-size: 20vw;
+        font-size: 18vw;
     }
     
     .and {
@@ -126,10 +126,10 @@ html {
     }
     
     .header-info {
-        font-size: 10vw;
+        font-size: 8vw;
     }
 
     .date-info {    
-        font-size: 8vw;
+        font-size: 6vw;
     }
 }
