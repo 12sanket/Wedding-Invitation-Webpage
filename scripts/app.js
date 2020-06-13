@@ -18,6 +18,7 @@ var x = setInterval(function() {
 
   if (distance < 0) {
     clearInterval(x);
+    document.getElementById("clock-title").style=" display: none";
     document.getElementById("clock").innerHTML = "Happily Married";
   }
 }, 1000);
