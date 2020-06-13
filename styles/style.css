@@ -41,7 +41,10 @@ html {
     padding-top: 100px;
 }
 
-
+.flowers {
+    width: 200px;
+    height: 200px;
+}
 .title {
     display: flex;
     height: 100%;
