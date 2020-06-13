@@ -1,3 +1,7 @@
+particlesJS.load('particles-js', '/assets/particlesjs-config.json', function () {
+    console.log('')
+});
+
 var countDownDate = new Date("July 02, 2020 13:31:00").getTime();
 
 var x = setInterval(function() {
@@ -12,13 +16,19 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 
-  document.getElementById("clock").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  document.getElementById("days").innerHTML = days + "d ";
+  document.getElementById("hours").innerHTML = hours + "h ";
+  document.getElementById("minutes").innerHTML = minutes + "m "
+  document.getElementById("seconds").innerHTML = seconds + "s ";
 
 
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("clock-title").style=" display: none";
-    document.getElementById("clock").innerHTML = "Happily Married";
+    document.getElementById("days").style=" display: none";
+    document.getElementById("hours").style=" display: none";
+    document.getElementById("minutes").style=" display: none";
+    document.getElementById("seconds").style=" display: none";
+    document.getElementById("final-message").innerHTML = "Happily Married"
   }
 }, 1000);
