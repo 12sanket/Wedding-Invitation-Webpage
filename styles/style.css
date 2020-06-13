@@ -22,25 +22,26 @@ html {
 }
 
 .wrapper {
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    display: flex;
-}
-
-header {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
-.flowers {
-    width: 200px;
-    height: 200px;
+.wrapper div {
+    height: 100%;
+    width: 100%;
 }
+
+.home-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+
 .title {
     display: flex;
     height: 100%;
@@ -54,6 +55,7 @@ header {
     padding: 10px;
     font-size: 8vw;
     color: #F44336;
+    z-index: 10;
 }
 
 .and {
@@ -61,7 +63,7 @@ header {
     font-size: 12vw;
     margin: -20px;
     color: gold;
-    z-index: -1;
+    z-index: 5;
 }
 
 .header-info {

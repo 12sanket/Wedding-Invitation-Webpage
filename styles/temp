@@ -9,22 +9,27 @@
 </head>
 
 <body>
-    <div id="particles-js"></div>
+    <div id="particles-js">
+
     <div class="wrapper">
-        <div class="home-page">
+    <header class="home-page">
             <div class="title">
                 <h1 class="name">Abhijeet</h1>
                 <h1 class="and">&</h1>
                 <h1 class="name">Dhanashree</h1>
             </div>
-            <img class="flowers" src="/assets/couple.png">
+            <img class="flowers" src="/assets/flowers.png">
             <p class="header-info">Getting married on</p>
             <p class="date-info">2nd July 2020</p>
-        </div>
-        <div>B</div>
-        <div>C</div>
+    </header>
+
+    <div class="message-page">
+        <main>
+
+        </main>
     </div>
-    </div>
+</div>
+</div>
 
     <script src="/scripts/particles.min.js"></script>
     <script src="/scripts/app.js"></script>
