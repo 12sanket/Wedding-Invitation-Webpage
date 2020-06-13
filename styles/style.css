@@ -14,7 +14,7 @@
     top: 0;
     left: 0;
     background-size: 100% 100%;
-    background-color: #F44336;
+    background-color: #FFF;
 }
 
 .wrapper {
@@ -45,14 +45,14 @@ header {
     font-family: 'Dancing Script', cursive;
     padding: 10px;
     font-size: 8vw;
-    color: white;
+    color: #F44336;
 }
 
 .and {
     font-family: 'Dancing Script', cursive;
     font-size: 12vw;
     margin: -20px;
-    color: #FFEE58;
+    color: gold;
     z-index: -1;
 }
 
@@ -70,7 +70,7 @@ header {
     justify-content: center;
     align-items: center;
     font-weight: 700;
-    color: #FFEE58;     
+    color: #F44336;     
     padding: 10px;
 }
 
