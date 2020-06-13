@@ -184,14 +184,23 @@ html {
     
     .message {
         padding: 30px;
-        font-size: 5vw;
+        font-size: 6vw;
         line-height: 1.5;
     }
     
     .thank-you{
-        font-size: 5vw;
+        font-size: 6vw;
         padding: 10px;
     }
+
+    .counter-title {
+        font-size: 8vw;
+    }
+    
+    #clock {
+        font-size: 8vw;
+    }
+    
     
 
 }
