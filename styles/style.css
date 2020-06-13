@@ -96,7 +96,7 @@ html {
 }
 
 .date-info {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Bellota', cursive;
     font-size: 3vw;
     justify-content: center;
     align-items: center;
@@ -143,7 +143,7 @@ html {
 }
 
 #clock {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Bellota', cursive;
     font-size: 6vw;
     padding: 15px;
     padding-bottom: 100px;
@@ -159,14 +159,11 @@ html {
     }
 
     .name {
-        font-family: 'Dancing Script', cursive;
         font-size: 18vw;
     }
 
     .and {
-        font-family: 'Dancing Script', cursive;
         font-size: 12vw;
-        color: #FFEE58;
         margin-bottom: -60px;
         padding: 5px;
     }
