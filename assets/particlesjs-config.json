@@ -20,7 +20,7 @@
         "nb_sides": 5
       },
       "image": {
-        "src": "/assets/pink-heart.png",
+        "src": "/assets/white-red-heart.png",
         "width":100,
         "height":100
       }
@@ -36,7 +36,7 @@
       }
     },
     "size": {
-      "value": 8,
+      "value": 20,
       "random": true,
       "anim": {
         "enable": false,
