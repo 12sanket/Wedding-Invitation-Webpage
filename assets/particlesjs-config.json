@@ -20,18 +20,18 @@
         "nb_sides": 5
       },
       "image": {
-        "src": "/assets/red-heart.png",
+        "src": "/assets/pink-heart.png",
         "width":100,
         "height":100
       }
     },
     "opacity": {
-      "value": 1,
+      "value": 0.1,
       "random": true,
       "anim": {
         "enable": true,
         "speed": 1,
-        "opacity_min": 0,
+        "opacity_min": 0.1,
         "sync": false
       }
     },
