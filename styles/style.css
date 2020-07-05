@@ -47,6 +47,8 @@
     display: flex;
     height: 100%;
     width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .name {
@@ -149,7 +151,6 @@
 
     .and {
         font-size: 12vw;
-        margin-bottom: -60px;
         padding: 5px;
     }
 
