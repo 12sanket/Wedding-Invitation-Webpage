@@ -2,4 +2,4 @@
 
 A wedding invitation webpage with countdown timer and beautiful backgrounds & images -
 
-Demo - weddingceremony.netlify.app
+Demo - https://weddingceremony.netlify.app/
