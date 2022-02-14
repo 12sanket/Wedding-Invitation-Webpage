@@ -1,10 +1,10 @@
 particlesJS.load('particles-js', '/assets/particlesjs-config.json', function () {
-    console.log('')
+  console.log('')
 });
 
-var countDownDate = new Date("December 31, 2021 12:00:00").getTime();
+var countDownDate = new Date("December 31, 2023 12:00:00").getTime();
 
-var x = setInterval(function() {
+var x = setInterval(function () {
 
   var now = new Date().getTime();
 
@@ -24,11 +24,11 @@ var x = setInterval(function() {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("clock-title").style=" display: none";
-    document.getElementById("days").style=" display: none";
-    document.getElementById("hours").style=" display: none";
-    document.getElementById("minutes").style=" display: none";
-    document.getElementById("seconds").style=" display: none";
+    document.getElementById("clock-title").style = " display: none";
+    document.getElementById("days").style = " display: none";
+    document.getElementById("hours").style = " display: none";
+    document.getElementById("minutes").style = " display: none";
+    document.getElementById("seconds").style = " display: none";
     document.getElementById("final-message").innerHTML = "Happily Married"
   }
 }, 1000);
