@@ -95,7 +95,7 @@
 }
 
 .message, .location {
-    padding: 20px;
+    padding: 8px;
     text-align: center;
     font-family: 'Bellota', cursive;
     font-size: 2vw;
@@ -166,8 +166,8 @@
         margin: 0px 50px 0px 50px;
     }
     
-    .message {
-        padding: 30px;
+    .message, .location {
+        padding: 16px;
         font-size: 4vw;
         line-height: 1.5;
     }
